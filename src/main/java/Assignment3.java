@@ -182,24 +182,24 @@ public class Assignment3 {
                         System.out.println("Enter student id:");
                         if (scanner.hasNextInt()) {
                             int studentId = scanner.nextInt();
-                            scanner.nextLine(); // Consume newline
+                            scanner.nextLine();
                             System.out.println("Enter new email:");
                             String newEmail = scanner.nextLine();
                             updateStudentEmail(studentId, newEmail);
                         } else {
                             System.out.println("Invalid input. Please enter a valid student id.");
-                            scanner.next(); // Clear invalid input
+                            scanner.next();
                         }
                         break;
                     case 4:
                         System.out.println("Enter student id to delete:");
                         if (scanner.hasNextInt()) {
                             int studentIdToDelete = scanner.nextInt();
-                            scanner.nextLine(); // Consume newline
+                            scanner.nextLine();
                             deleteStudent(studentIdToDelete);
                         } else {
                             System.out.println("Invalid input. Please enter a valid student id.");
-                            scanner.next(); // Clear invalid input
+                            scanner.next();
                         }
                         break;
                     case 5:
@@ -211,7 +211,7 @@ public class Assignment3 {
                 }
             }else {
                 System.out.println("Invalid input. Please enter a valid option.");
-                scanner.next(); // Clear invalid input
+                scanner.next();
             }
         }
     }
