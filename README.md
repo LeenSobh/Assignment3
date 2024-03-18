@@ -8,7 +8,7 @@ as required.
 Along with this Read Me file, I have provided the SQL code to create the test table "students" as well as the code required to insert data into this table. Finally, the source
 code written in Java is also provided.
 
-The SQL statements can be found in the SQL Code folder
+The SQL statements can be found in the folder SQL Codes/SQL Statements
 The source code can be found in src/main/Java/Assignment3.java
 
 Requirements:
