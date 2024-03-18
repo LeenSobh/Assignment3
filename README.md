@@ -7,7 +7,8 @@ This Read Me file contains instructions on how to use the code for interacting w
 as required.
 Along with this Read Me file, I have provided the SQL code to create the test table "students" as well as the code required to insert data into this table. Finally, the source
 code written in Java is also provided.
-The source code can be found in 
+
+The source code can be found in src/main/Java/Assignment3
 
 Requirements:
 The provided Java code works with pgadmin4 for managing PostgreSQL databases.
